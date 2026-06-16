@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.inicio{
+    text-align: center;
+    padding: 30px;
+}
+
+.inicio img{
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.galeria img{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
